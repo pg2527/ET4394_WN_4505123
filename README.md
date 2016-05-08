@@ -27,4 +27,4 @@ Wireless Networking Assignments: Parul Gupta (p.gupta-3@student.tudelft.nl)
 * Also use "out_stats_*" and "plot_tp_*" files generated to get the glimpse of how analysis was done.
 
 # References :
- *Works by {hedi02}(https://github.com/hedi02) and Rizqi
+ *Works by (hedi02)[https://github.com/hedi02] and Rizqi

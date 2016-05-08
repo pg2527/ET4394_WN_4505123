@@ -24,4 +24,5 @@ Wireless Networking Assignments: Parul Gupta (p.gupta-3@student.tudelft.nl)
   * --PositionAllocator= 3; // type of orientation of nodes
 * Run thru_payload.sh and delay_payload.sh to see the graphs related to effect of payload on throughput and delay.This can be taken as a sample of generated graphs.
 * Use generated CSVs for analysis
+* Also use "out_stats_*" and "plot_tp_*" files generated to get the glimpse of how analysis was done.
 

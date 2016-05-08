@@ -1,8 +1,3 @@
-
-/*
- * Authors: Parul Gupta <parulgupta.mbmj@gmail.com>
- */
-
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/applications-module.h"
@@ -10,7 +5,7 @@
 #include "ns3/mobility-module.h"
 #include "ns3/ipv4-global-routing-helper.h"
 #include "ns3/internet-module.h"
-#include "ns3/netanim-module.h"
+//#include "ns3/netanim-module.h"
 #include "ns3/flow-monitor-module.h"
 #include "ns3/stats-module.h"
 #include "ns3/nstime.h"
@@ -38,10 +33,10 @@ int main (int argc, char *argv[])
 	//for (int d=20; d<=100; d=d+5)
 	//{
 	//	std::cout << "::\n";
-	for (int i=2;i<=16;i=i+2)
-  {
+	//for (int i=2;i<=16;i=i+2)
+  //{
 	//{
-	ofstream log_file("log_values.csv", std::ios::out | std::ios::app);	
+  ofstream log_file("log_values.csv", std::ios::out | std::ios::app);	
   bool udp = true;
   bool verbose=false;
   double time_simulation = 10; //seconds
@@ -279,5 +274,6 @@ log_file<<nStanodes<<","<<avg_delay<<","<<avg_throughput<<"\n";
 //log_file << nStanodes << "," << avg_throughput << "," << avg_delay << "," << mobility_model<< "," <<dataratevalue<<"\n";
 std::cout <<": with" << dataratevalue << "\t" << distance  << "\t" <<  payloadSize << "\t" << nStanodes << "\t"<< avg_throughput << " \t" <<"delay is"<< avg_delay << "\t" <<flag<< std::endl;
 
-}return 0;
+//}
+return 0;
 }

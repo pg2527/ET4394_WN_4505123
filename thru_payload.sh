@@ -1,6 +1,6 @@
 #OUTPUT_STATS=out_stats.dat
 #PLOT_THROUGHPUT=out_throughput.dat
-THROUGHPUT_IMG=throughput_img_rate.png
+THROUGHPUT_IMG=throughput_img_payload.png
 
 rm out_stats_*
 rm plot_tp_pl*

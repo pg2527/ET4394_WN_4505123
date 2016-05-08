@@ -28,7 +28,7 @@ gnuplot <<- EOF
 set title "Network Performance vs Payload"
 set xrange [0:]
 set xlabel "Number of Nodes"
-set ylabel "Average Throughput (Mbps)"
+set ylabel "Average Throughput (Kbps)"
 set term png
 set output "$THROUGHPUT_IMG"
 set style data linespoints

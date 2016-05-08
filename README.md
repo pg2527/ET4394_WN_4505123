@@ -1,5 +1,5 @@
 # ET4394_WN_4505123
-Wireless Networking Assignments
+Wireless Networking Assignments: Parul Gupta (p.gupta-3@student.tudelft.nl)
 
 ## GNU Project
 * The Project report is present with the title "wireless-networking-gnu-4505123.pdf:
